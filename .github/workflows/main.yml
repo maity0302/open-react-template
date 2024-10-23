@@ -22,6 +22,6 @@ jobs:
           git pull
           pnpm install
           pnpm run build
-          pm2 reload react-app
+          pm2 reload next-app
             
           
